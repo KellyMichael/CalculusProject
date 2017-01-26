@@ -1,0 +1,29 @@
+*{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: url(cursor.ico);
+  align-self: center;
+  margin: 0 auto;
+  text-align: center;
+}
+body{
+  background:url(images/calculus.jpg) no-repeat top left, url(images/shrek.jpg) no-repeat top right,  linear-gradient( to right, red, yellow, green, purple); /* Standard syntax */
+}
+audio{
+  display: none;
+}
+h1{
+  width: 100%;
+  font-size: 42pt;
+  color: purple;
+  text-align: center;
+  background: #fa0a0a;
+  background: linear-gradient(to right,#fa0a0a 0%,#8f038a 71%,#32006b 100%);
+  color: #fff!important;
+  box-shadow: 5px 5px 21px 0 #eb0909;
+  border-radius: 5px!important;
+  border: 6px double red;
+}
+#download-button{
+  width:300px;
+  height:100px;
+}
